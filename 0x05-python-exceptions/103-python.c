@@ -1,8 +1,7 @@
-#!/usr/bin/python3
 #include <Python.h>
 #include <stdio.h>
 /**
- * print_python_float - to give data of the PyFloatObject
+ * print_python_float - gives data of the PyFloatObject
  * @p: the PyObject
  */
 void print_python_float(PyObject *p)
@@ -23,7 +22,7 @@ void print_python_float(PyObject *p)
 	printf("  value: %s\n", string);
 }
 /**
- * print_python_bytes - to give data of the PyBytesObject
+ * print_python_bytes - gives data of the PyBytesObject
  * @p: the PyObject
  */
 void print_python_bytes(PyObject *p)
@@ -51,7 +50,7 @@ void print_python_bytes(PyObject *p)
 	printf("\n");
 }
 /**
- * print_python_list - to give data of the PyListObject
+ * print_python_list - gives data of the PyListObject
  * @p: the PyObject
  */
 void print_python_list(PyObject *p)
@@ -80,4 +79,4 @@ void print_python_list(PyObject *p)
 	}
 	else
 		printf("  [ERROR] Invalid List Object\n");
-}}
+}

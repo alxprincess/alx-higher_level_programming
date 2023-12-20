@@ -1,3 +1,8 @@
 #!/usr/bin/python3
-class Square("self"):
+
+"""Defines a class Square."""
+
+
+class Square:
+    """Represents a square."""
     pass
